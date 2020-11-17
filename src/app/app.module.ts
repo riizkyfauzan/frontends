@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { TournamentComponent } from './tournament/tournament.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { TournamentComponent } from './tournament/tournament.component';
     FooterComponent,
     HomeComponent,
     ProfileComponent,
-    TournamentComponent
+    TournamentComponent,
+  
   ],
   imports: [
     BrowserModule,
