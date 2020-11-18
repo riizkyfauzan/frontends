@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
-
+import { LombaComponent } from './info/lomba/lomba.component';
+import { PendaftaranComponent } from './info/pendaftaran/pendaftaran.component';
 import { ProfileComponent } from './profile/profile.component';
 import { TournamentComponent } from './tournament/tournament.component';
 
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'tournament', component: TournamentComponent },
   { path: 'home/tournament', component: TournamentComponent },
-  
+  // { path: 'home/tournament/lomba', component: LombaComponent},
+  { path: 'home/tournament/pendaftaran', component: PendaftaranComponent},
   {
     path: 'user',
     loadChildren: () => import('./user/user.module').then((m) => m.UserModule),
